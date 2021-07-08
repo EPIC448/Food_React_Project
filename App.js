@@ -1,36 +1,18 @@
-import 'react-native-gesture-handler';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
-import { createStackNavigator } from "@react-navigation/stack";
-import { NavigationContainer } from '@react-navigation/native';
-import SearchScreen from "./src/screens/SearchScreen";
+import SearchScreen from './src/screens/SearchScreen';
 
-const Stack = createStackNavigator();
+const navigator = createStackNavigator(
+  {
+    Search: SearchScreen,
+  },
+  {
+    initialRouteName: 'Search',
+    defaultNavigationOptions: {
+      title: 'Business Search',
+    },
+  }
+);
 
-function App() {
-
-  return (
-    
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="SearchScreen" component={SearchScreen} />
-
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
-
-export default App;
-
-// const navigator = createStackNavigator({
-//   Search: SearchScreen
-// },
-//   {
-//   initialRouteName: 'Search',
-//   defaultNavigationOptions: {
-//     title: 'Business Search'
-//   }
-//   });
-
-
-
-// export default createAppContainer(navigator);
+export default createAppContainer(navigator);
