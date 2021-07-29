@@ -29,10 +29,10 @@ const SearchScreen = () => {
       {errorMessage ? <Text>{errorMessage}</Text> : null}
       <ScrollView>
 
-      <Text>we found this {results.length} Number for sdsad</Text>
         <ResultsList results={filterResultByPrice('$')}title = "Cost Effective" />
         <ResultsList results={filterResultByPrice('$$')}title = "Bit Pricer"/>
-        <ResultsList results={filterResultByPrice('$$$')}title = "Big Spender"/>
+        <ResultsList results={filterResultByPrice('$$$')} title="Big Spender" />
+        
       </ScrollView>
     </>
   );
