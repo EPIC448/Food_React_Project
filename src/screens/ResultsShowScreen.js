@@ -20,7 +20,10 @@ const ResultsShowScreen = ({ navigation }) => {
     };
 
     return <View>
-        <Text style={ styles.font}>{result.name}</Text>
+        <Text style={ styles.font}> Name: {result.name}</Text>
+        <Text style={ styles.font}> Phone:{result.phone}</Text>
+        <Text style={ styles.font}> price: {result.price}</Text>
+        <Text style={ styles.font}> Rating: {result.rating}</Text>
         <FlatList
             data={result.photos}
             keyExtractor={(photo) => photo}
