@@ -11,7 +11,7 @@ const navigator = createStackNavigator(
   {
     initialRouteName: 'Search',
     defaultNavigationOptions: {
-      title: 'Yelp',
+      title: 'YelpFlix',
       headerStyle: {
         backgroundColor: 'black'
       },
