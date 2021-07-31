@@ -11,9 +11,19 @@ const navigator = createStackNavigator(
   {
     initialRouteName: 'Search',
     defaultNavigationOptions: {
-      title: 'Business Search',
+      title: 'Yelp',
+      headerStyle: {
+        backgroundColor: 'black'
+      },
+      cardStyle: { backgroundColor: 'pink' },
+      headerTintColor: '#E50914',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+        fontSize: 35,
+      },
     },
   }
 );
+
 
 export default createAppContainer(navigator);

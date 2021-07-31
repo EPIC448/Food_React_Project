@@ -7,14 +7,15 @@ const ResultsDetail = ({result}) => {
         <View style={styles.container}>
             <Image style={styles.image} source={{ uri: result.image_url }} />
             <Text style={styles.name}> {result.name}</Text>
-            <Text> {result.rating}, Stars, {ResultsDetail.review_count} Reviews</Text>
+            <Text style={styles.name}> {result.rating}, Stars, {ResultsDetail.review_count} Reviews</Text>
         </View>
     );
 };
 
 const styles = StyleSheet.create({
     container: {
-      marginLeft: 15  
+        marginLeft: 15,
+      backgroundColor: 'black'  
     },
 
     image: {
@@ -25,7 +26,8 @@ const styles = StyleSheet.create({
         marginBottom: 5
     },
     name: {
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        color: 'white'
     }
 });
 

@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     font: {
         fontSize: 15,
         fontWeight: 'bold',
+        color: 'white'
     },
     image: {
        height: 200,
