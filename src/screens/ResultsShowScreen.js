@@ -20,7 +20,7 @@ const ResultsShowScreen = ({ navigation }) => {
     };
 
     return <View>
-        <Text style={ styles.font}> Name: {result.name}</Text>
+        <Text style={{color: 'red', fontSize: 35, fontStyle: 'italic'}}> {result.name}</Text>
         <Text style={ styles.font}> Phone:{result.phone}</Text>
         <Text style={ styles.font}> price: {result.price}</Text>
         <Text style={ styles.font}> Rating: {result.rating}</Text>

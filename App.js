@@ -15,7 +15,7 @@ const navigator = createStackNavigator(
       headerStyle: {
         backgroundColor: 'black'
       },
-      cardStyle: { backgroundColor: 'pink' },
+      cardStyle: { backgroundColor: 'black' },
       headerTintColor: '#E50914',
       headerTitleStyle: {
         fontWeight: 'bold',
