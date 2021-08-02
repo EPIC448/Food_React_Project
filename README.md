@@ -68,14 +68,14 @@
 There are many great great ideas on Netflix and Yelp clone, but I could not find one that brings both worlds together or really suit my insterest so I created one. 
 
 Here's why:
-* Most if not all if not all of us used a combination of both apps in the past. And we were excited for what the value they bring.
+*  Most if not all of us used a combination of both apps in the past. And we were excited for what the value they bring.
 * Also, I often find myself looking for ways to bring different worlds together. Covid thought us that.
-* Also implementing the  DRY principles to this code base:
+Also implementing the  DRY principles to this codebase:
 
 Please!!!
- Do not hesitate to give suggestion on how this application can be improved. I look forward to hearing from you.
+ Do not hesitate to give suggestions on how this application can be improved. I look forward to hearing from you.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+A list of commonly used resources that I find helpful is listed in the acknowledgments.
 
 ### Built With
 
